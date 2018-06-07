@@ -1,0 +1,423 @@
+---------------------------------------------------------------
+[ 2018-05-09T20:39:14+08:00 ] 127.0.0.1 POST /index.php/index/index/login
+[ info ] www.myacc.com/index.php/index/index/login [运行时间：0.069122s][吞吐率：14.47req/s] [内存消耗：1,337.53kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\MyaccTh5\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myacc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.myacc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.myacc.com/index.php/index/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'sid=a84fb766-5339-11e8-a633-bc2b6400020b; pgv_pvi=464265216; pgv_si=s2590255104',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\model\user' not found[D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php:18]
+---------------------------------------------------------------
+[ 2018-05-09T20:43:14+08:00 ] 127.0.0.1 GET /index.php/index/index/login
+[ info ] www.myacc.com/index.php/index/index/login [运行时间：0.053771s][吞吐率：18.60req/s] [内存消耗：1,429.95kb] [文件加载：30]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\MyaccTh5\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myacc.com',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'sid=a84fb766-5339-11e8-a633-bc2b6400020b; pgv_pvi=464265216; pgv_si=s2590255104',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php ]
+[ info ] [ VIEW ] D:\phpStudy\PHPTutorial\WWW\MyaccTh5./myaccount/index\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-09T20:43:18+08:00 ] 127.0.0.1 POST /index.php/index/index/login
+[ info ] www.myacc.com/index.php/index/index/login [运行时间：0.069396s][吞吐率：14.41req/s] [内存消耗：1,337.65kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\MyaccTh5\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myacc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.myacc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.myacc.com/index.php/index/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'sid=a84fb766-5339-11e8-a633-bc2b6400020b; pgv_pvi=464265216; pgv_si=s2590255104',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'index\model\user' not found[D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php:18]
+---------------------------------------------------------------
+[ 2018-05-09T20:43:50+08:00 ] 127.0.0.1 POST /index.php/index/index/login
+[ info ] www.myacc.com/index.php/index/index/login [运行时间：0.073545s][吞吐率：13.60req/s] [内存消耗：1,337.51kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\MyaccTh5\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myacc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.myacc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.myacc.com/index.php/index/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'sid=a84fb766-5339-11e8-a633-bc2b6400020b; pgv_pvi=464265216; pgv_si=s2590255104',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\model\user' not found[D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php:18]
+---------------------------------------------------------------
+[ 2018-05-09T20:51:42+08:00 ] 127.0.0.1 POST /index.php/index/index/login
+[ info ] www.myacc.com/index.php/index/index/login [运行时间：0.066705s][吞吐率：14.99req/s] [内存消耗：1,337.50kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\MyaccTh5\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myacc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.myacc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.myacc.com/index.php/index/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'sid=a84fb766-5339-11e8-a633-bc2b6400020b; pgv_pvi=464265216; pgv_si=s2590255104',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\model\user' not found[D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php:18]
+---------------------------------------------------------------
+[ 2018-05-09T21:00:51+08:00 ] 127.0.0.1 POST /index.php/index/index/login
+[ info ] www.myacc.com/index.php/index/index/login [运行时间：0.066770s][吞吐率：14.98req/s] [内存消耗：1,337.55kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\MyaccTh5\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myacc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.myacc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.myacc.com/index.php/index/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'sid=a84fb766-5339-11e8-a633-bc2b6400020b; pgv_pvi=464265216; pgv_si=s2590255104',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'model\User' not found[D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php:18]
+---------------------------------------------------------------
+[ 2018-05-09T21:02:29+08:00 ] 127.0.0.1 POST /index.php/index/index/login
+[ info ] www.myacc.com/index.php/index/index/login [运行时间：0.064920s][吞吐率：15.40req/s] [内存消耗：1,337.73kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\MyaccTh5\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myacc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.myacc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.myacc.com/index.php/index/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'sid=a84fb766-5339-11e8-a633-bc2b6400020b; pgv_pvi=464265216; pgv_si=s2590255104',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\model\UserModel' not found[D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php:18]
+---------------------------------------------------------------
+[ 2018-05-09T21:04:26+08:00 ] 127.0.0.1 POST /index.php/index/index/login
+[ info ] www.myacc.com/index.php/index/index/login [运行时间：0.123165s][吞吐率：8.12req/s] [内存消耗：2,395.83kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\MyaccTh5\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myacc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.myacc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.myacc.com/index.php/index/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'sid=a84fb766-5339-11e8-a633-bc2b6400020b; pgv_pvi=464265216; pgv_si=s2590255104',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003755s ] mysql:host=127.0.0.1;dbname=myaccount;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.034058s ]
+[ sql ] [ SQL ] SELECT * FROM `user` LIMIT 1 [ RunTime:0.000873s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:05:11+08:00 ] 127.0.0.1 POST /index.php/index/index/login
+[ info ] www.myacc.com/index.php/index/index/login [运行时间：0.051821s][吞吐率：19.30req/s] [内存消耗：1,337.50kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\MyaccTh5\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myacc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.myacc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.myacc.com/index.php/index/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'sid=a84fb766-5339-11e8-a633-bc2b6400020b; pgv_pvi=464265216; pgv_si=s2590255104',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\model\user' not found[D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php:18]
+---------------------------------------------------------------
+[ 2018-05-09T21:05:23+08:00 ] 127.0.0.1 POST /index.php/index/index/login
+[ info ] www.myacc.com/index.php/index/index/login [运行时间：0.057298s][吞吐率：17.45req/s] [内存消耗：1,337.50kb] [文件加载：31]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\MyaccTh5\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myacc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.myacc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.myacc.com/index.php/index/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'sid=a84fb766-5339-11e8-a633-bc2b6400020b; pgv_pvi=464265216; pgv_si=s2590255104',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [1]Class 'app\index\model\user' not found[D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php:18]
+---------------------------------------------------------------
+[ 2018-05-09T21:05:38+08:00 ] 127.0.0.1 POST /index.php/index/index/login
+[ info ] www.myacc.com/index.php/index/index/login [运行时间：0.111186s][吞吐率：8.99req/s] [内存消耗：2,395.83kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\MyaccTh5\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myacc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.myacc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.myacc.com/index.php/index/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'sid=a84fb766-5339-11e8-a633-bc2b6400020b; pgv_pvi=464265216; pgv_si=s2590255104',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001874s ] mysql:host=127.0.0.1;dbname=myaccount;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.036392s ]
+[ sql ] [ SQL ] SELECT * FROM `user` LIMIT 1 [ RunTime:0.000856s ]
+---------------------------------------------------------------
+[ 2018-05-09T21:06:13+08:00 ] 127.0.0.1 POST /index.php/index/index/login
+[ info ] www.myacc.com/index.php/index/index/login [运行时间：0.087304s][吞吐率：11.45req/s] [内存消耗：2,395.83kb] [文件加载：36]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\MyaccTh5\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'www.myacc.com',
+  'connection' => 'keep-alive',
+  'content-length' => '19',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://www.myacc.com',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'referer' => 'http://www.myacc.com/index.php/index/index/login',
+  'accept-encoding' => 'gzip, deflate',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => 'sid=a84fb766-5339-11e8-a633-bc2b6400020b; pgv_pvi=464265216; pgv_si=s2590255104',
+)
+[ info ] [ PARAM ] array (
+  'username' => '',
+  'password' => '',
+)
+[ info ] [ RUN ] app\index\controller\Index->login[ D:\phpStudy\PHPTutorial\WWW\MyaccTh5\myaccount\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001547s ] mysql:host=127.0.0.1;dbname=myaccount;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.023663s ]
+[ sql ] [ SQL ] SELECT * FROM `user` LIMIT 1 [ RunTime:0.000820s ]

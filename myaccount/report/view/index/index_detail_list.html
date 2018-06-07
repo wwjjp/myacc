@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>个人记账系统</title>
+
+    <!-- Bootstrap -->
+    <link href="{$Think.const.CSS_URL}bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="{$Think.const.JS_URL}html5shiv.min.js"></script>
+    <script src="{$Think.const.JS_URL}respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .work-div {
+            max-width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="text-center">
+    <div class="table-responsive work-div">
+        <h3>日记账明细</h3>
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th style="text-align: center">编号</th>
+                <th style="text-align: center">日期</th>
+                <th style="text-align: center">摘要</th>
+                <th style="text-align: center">类型</th>
+                <th style="text-align: center">分类</th>
+                <th style="text-align: center">账户</th>
+                <th style="text-align: center">金额</th>
+                <th style="text-align: center">操作</th>
+            </tr>
+            {volist name='list' id='detail'}
+            <tr
+
+                {php}
+                    //设置字体颜色
+                    if ($detail['typename'] == '收入' ) { echo "style = \"color:red\""; };
+                    if ($detail['typename'] == '支出' ) { echo "style = \"color:green\""; };
+                {/php}
+            >
+            <td>{$detail.word}-{$detail.id}</td>
+            <td>{$detail.date}</td>
+            <td>{$detail.abstract}</td>
+            <td>{$detail.typename}</td>
+            <td>{$detail.classname}</td>
+            <td>{$detail.accountname}</td>
+            <td>{$detail.amount|abs=###}</td>
+            <td>
+                <a type="btn" class="btn btn-primary btn-xs" href="/report.php/report/index/edit/word/{$detail.word}/typename/{$detail.typename}/id/{$detail.id}">编辑</a>
+                <a type="btn" class="btn btn-danger btn-xs" href="/report.php/report/index/del/word/{$detail.word}/typename/{$detail.typename}/id/{$detail.id}">删除</a>
+            </td>
+            </tr>
+            {/volist}
+        </table>
+        <!--分页处理-->
+        {$list->render()}
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="{$Think.const.JS_URL}jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{$Think.const.JS_URL}bootstrap.min.js"></script>
+</body>
+</html>

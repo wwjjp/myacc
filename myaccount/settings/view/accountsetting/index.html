@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>账户设置-个人记账系统</title>
+
+    <!-- Bootstrap -->
+    <link href="{$Think.const.CSS_URL}bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="{$Think.const.JS_URL}html5shiv.min.js"></script>
+    <script src="{$Think.const.JS_URL}respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .work-div {
+            max-width: 960px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="text-center">
+    <div class="table-responsive work-div">
+        <h3>账户基本信息</h3>
+        <table class="table table-bordered table-striped">
+            <tr>
+                <th style="text-align: center">编号</th>
+                <th style="text-align: center">名称</th>
+                <th style="text-align: center">银行</th>
+                <th style="text-align: center">账号</th>
+                <th style="text-align: center">状态</th>
+                <th style="text-align: center">备注</th>
+                <th style="text-align: center">
+                    <a type="btn" class="btn btn-success btn-xs"  href="/settings.php/settings/accountsetting/add" target="work">添加账户</a>
+                </th>
+            </tr>
+            {volist name='list' id='account'}
+            <tr>
+                <td>{$account.id}</td>
+                <td>{$account.accname}</td>
+                <td>{$account.bank}</td>
+                <td>{$account.accnum}</td>
+                <td>{$account.state}</td>
+                <td>{$account.note}</td>
+            <td>
+                <a type="btn" class="btn btn-primary btn-xs" href="/settings.php/settings/accountsetting/edit/id/{$account.id}"  target="work">编辑</a>
+                <a type="btn" class="btn btn-danger btn-xs" href="/settings.php/settings/accountsetting/del/id/{$account.id}"  target="work">删除</a>
+            </td>
+            </tr>
+            {/volist}
+        </table>
+        <!--分页处理-->
+        {$list->render()}
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="{$Think.const.JS_URL}jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{$Think.const.JS_URL}bootstrap.min.js"></script>
+</body>
+</html>
